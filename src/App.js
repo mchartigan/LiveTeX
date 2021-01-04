@@ -1,6 +1,6 @@
 import React from 'react';
 import MathJax from 'mathjax3-react';
-import { Container, Segment, Form, TextArea } from 'semantic-ui-react';
+import { Container, Segment, Form, TextArea, Icon, Image, Menu, Button, Header } from 'semantic-ui-react';
 import './App.css';
 
 // dynamically create lines to make multi-line equations
@@ -32,13 +32,23 @@ class App extends React.Component {
   // update LaTeX in a controlled component
   handleChange(event) {
     this.setState({ text: event.target.value });
-    this.setState({ formulas: event.target.value.split(/(?:\n)/g) });  
+    this.setState({ formulas: event.target.value.split(/(?:\n)/g) });
   }
 
   render() {
     return (
       <div className="App">
         <Container text>
+          <Segment basic clearing textAlign="center">
+            <Button color="black" as="a" href="https://mchartigan.github.io/" floated="left">
+              <Image src={process.env.PUBLIC_URL + '/favicon.ico'} avatar/>
+              Go to Home
+            </Button>
+            LiveTeX
+            <Button as="a" href="https://github.com/mchartigan/LiveTeX" floated="right">
+              <Icon name="github"/> Visit on Github
+            </Button>
+          </Segment>
           <Segment>
             <Form>
               <TextArea
@@ -51,9 +61,9 @@ class App extends React.Component {
           </Segment>
           <Segment>
             <MathJax.Provider>
-              {this.state.formulas.map(text => (
-                <Line formula={text}/>
-              ))}
+              {this.state.formulas.map(function(list, index) {
+                return <Line key={list+"-"+index} formula={list}/>;
+              })}
             </MathJax.Provider>
           </Segment>
         </Container>
