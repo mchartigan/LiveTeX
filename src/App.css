@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -28,4 +24,9 @@
   margin-top: -12px;
   margin-bottom: -8px;
   margin-left: -12px;
+}
+
+img.ui.image {
+  display: inline-block;
+  text-align: center;
 }
