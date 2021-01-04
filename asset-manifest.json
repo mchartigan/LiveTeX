@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/LiveTeX/static/css/main.bde8b114.chunk.css",
+    "main.css": "/LiveTeX/static/css/main.1de6cc07.chunk.css",
     "main.js": "/LiveTeX/static/js/main.980dcad9.chunk.js",
     "main.js.map": "/LiveTeX/static/js/main.980dcad9.chunk.js.map",
     "runtime-main.js": "/LiveTeX/static/js/runtime-main.1aa9229a.js",
@@ -10,7 +10,7 @@
     "static/js/2.790bc3ca.chunk.js.map": "/LiveTeX/static/js/2.790bc3ca.chunk.js.map",
     "index.html": "/LiveTeX/index.html",
     "static/css/2.f15f87bf.chunk.css.map": "/LiveTeX/static/css/2.f15f87bf.chunk.css.map",
-    "static/css/main.bde8b114.chunk.css.map": "/LiveTeX/static/css/main.bde8b114.chunk.css.map",
+    "static/css/main.1de6cc07.chunk.css.map": "/LiveTeX/static/css/main.1de6cc07.chunk.css.map",
     "static/js/2.790bc3ca.chunk.js.LICENSE.txt": "/LiveTeX/static/js/2.790bc3ca.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/LiveTeX/static/media/outline-icons.ddae9b1b.woff"
   },
@@ -18,7 +18,7 @@
     "static/js/runtime-main.1aa9229a.js",
     "static/css/2.f15f87bf.chunk.css",
     "static/js/2.790bc3ca.chunk.js",
-    "static/css/main.bde8b114.chunk.css",
+    "static/css/main.1de6cc07.chunk.css",
     "static/js/main.980dcad9.chunk.js"
   ]
 }
