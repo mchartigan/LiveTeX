@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/LiveTeX/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/LiveTeX/static/js/main.d5873a9e.chunk.js",
-    "main.js.map": "/LiveTeX/static/js/main.d5873a9e.chunk.js.map",
+    "main.css": "/LiveTeX/static/css/main.12c956cb.chunk.css",
+    "main.js": "/LiveTeX/static/js/main.1fa741d0.chunk.js",
+    "main.js.map": "/LiveTeX/static/js/main.1fa741d0.chunk.js.map",
     "runtime-main.js": "/LiveTeX/static/js/runtime-main.1aa9229a.js",
     "runtime-main.js.map": "/LiveTeX/static/js/runtime-main.1aa9229a.js.map",
     "static/css/2.f15f87bf.chunk.css": "/LiveTeX/static/css/2.f15f87bf.chunk.css",
-    "static/js/2.ac020554.chunk.js": "/LiveTeX/static/js/2.ac020554.chunk.js",
-    "static/js/2.ac020554.chunk.js.map": "/LiveTeX/static/js/2.ac020554.chunk.js.map",
+    "static/js/2.5442bf4c.chunk.js": "/LiveTeX/static/js/2.5442bf4c.chunk.js",
+    "static/js/2.5442bf4c.chunk.js.map": "/LiveTeX/static/js/2.5442bf4c.chunk.js.map",
     "index.html": "/LiveTeX/index.html",
     "static/css/2.f15f87bf.chunk.css.map": "/LiveTeX/static/css/2.f15f87bf.chunk.css.map",
-    "static/css/main.ab7136cd.chunk.css.map": "/LiveTeX/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.ac020554.chunk.js.LICENSE.txt": "/LiveTeX/static/js/2.ac020554.chunk.js.LICENSE.txt",
+    "static/css/main.12c956cb.chunk.css.map": "/LiveTeX/static/css/main.12c956cb.chunk.css.map",
+    "static/js/2.5442bf4c.chunk.js.LICENSE.txt": "/LiveTeX/static/js/2.5442bf4c.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/LiveTeX/static/media/outline-icons.ddae9b1b.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.1aa9229a.js",
     "static/css/2.f15f87bf.chunk.css",
-    "static/js/2.ac020554.chunk.js",
-    "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.d5873a9e.chunk.js"
+    "static/js/2.5442bf4c.chunk.js",
+    "static/css/main.12c956cb.chunk.css",
+    "static/js/main.1fa741d0.chunk.js"
   ]
 }
