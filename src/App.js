@@ -2,6 +2,7 @@ import React from 'react';
 import MathJax from 'mathjax3-react';
 import { Container, Segment, Form, TextArea, Icon, Image, Button, Accordion } from 'semantic-ui-react';
 import './App.css';
+import logo from './img/livetex.png';
 
 // dynamically create lines to make multi-line equations
 class Line extends React.Component {
@@ -49,11 +50,11 @@ class App extends React.Component {
       <div className="App">
         <Container text>
           <Segment basic clearing textAlign="center">
-            <Button color="black" as="a" href="https://mchartigan.github.io/" floated="left">
+            <Button color="violet" as="a" href="https://mchartigan.github.io/" floated="left">
               <Image src={process.env.PUBLIC_URL + '/favicon.ico'} avatar/>
               Go to Home
             </Button>
-            <Image src={process.env.PUBLIC_URL + '/livetex.png'} centered/>
+            <Image src={logo} centered/>
             <Button as="a" href="https://github.com/mchartigan/LiveTeX" floated="right">
               <Icon name="github"/> Visit on Github
             </Button>
@@ -66,11 +67,19 @@ class App extends React.Component {
             <Accordion.Content active={this.state.activeIndex === 0}>
               <p>
                 Welcome to LiveTeX! This is an implementation of LaTeX's math mode, meant to be used to draft equations
-                or LaTeX equations for use in papers outside of LaTeX. It lacks the functionality of programs such as TeX Live or
-                sites like Overleaf, but in return offers live rendering and easy multi-line equation support.
-
+                or save for use in papers outside of LaTeX. It lacks the functionality of programs
+                such as <a href="https://www.tug.org/texlive/">TeX Live</a> or
+                sites like <a href="https://www.overleaf.com/">Overleaf</a>,
+                but in return offers live rendering and easy multi-line equation support.
+              </p>
+              <p>
                 Pending features include "Copy to Clipboard" and "Save" buttons, as well as shortcuts for often-used LaTeX commands.
               </p>
+              <b>Known Issues</b>
+              <ol>
+                <li>MathJAX may be interrupted while typesetting, causing LaTeX rendering to fail.
+                  In this case, reload the page.</li>
+              </ol>
             </Accordion.Content>
           </Accordion>
           <Segment>
@@ -83,6 +92,7 @@ class App extends React.Component {
               />
             </Form>
           </Segment>
+          <div id="target"></div>
           <Segment>
             <MathJax.Provider>
               {this.state.formulas.map(function(list, index) {
